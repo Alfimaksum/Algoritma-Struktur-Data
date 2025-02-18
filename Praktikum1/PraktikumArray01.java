@@ -7,7 +7,7 @@ public class PraktikumArray01 {
 
         // Meminta jumlah mata kuliah
         System.out.println("==========================================");
-        System.out.println("   Program Menghitung IP Semester");
+        System.out.println("      Program Menghitung IP Semester");
         System.out.println("==========================================");
 
         System.out.print("Masukkan jumlah mata kuliah: ");
