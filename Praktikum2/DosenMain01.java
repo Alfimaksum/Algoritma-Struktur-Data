@@ -8,7 +8,7 @@ public class DosenMain01 {
         dosen1.tampilInformasi();
 
         // Instansiasi objek Dosen menggunakan konstruktor berparameter
-        Dosen dosen2 = new Dosen("D001", "Dr. Ahmad", true, 2010, "Ilmu Komputer");
+        Dosen dosen2 = new Dosen("D001", "Dr. Maksum", true, 2010, "Ilmu Komputer");
         System.out.println("=== Informasi Dosen 2 (Diberikan Parameter) ===");
         dosen2.tampilInformasi();
 

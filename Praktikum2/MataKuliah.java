@@ -6,7 +6,7 @@ public class MataKuliah {
     private String nama;
     private int sks;
     private int jumlahJam;
-
+    
     // Konstruktor default
     public MataKuliah() {
         this.kodeMK = "";
