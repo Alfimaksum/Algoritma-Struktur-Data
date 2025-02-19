@@ -7,6 +7,20 @@ public class Mahasiswa {
     String kelas;
     double ipk;
 
+    // Konstruktor default
+    public Mahasiswa() {
+        
+    }
+
+    // Konstruktor berparameter
+    public Mahasiswa(String nm, String nim, double ipk, String kls) {
+        this.nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        this.kelas = kls;
+    }
+
+
     // Method untuk menampilkan informasi mahasiswa
     void tampilkanInfo() {
         System.out.println("Nama: " + nama);
