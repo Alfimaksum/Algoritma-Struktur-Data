@@ -22,5 +22,21 @@ public class Mahasiswa01 {
         // Menampilkan informasi setelah diubah
         System.out.println("\nInformasi Setelah Diubah:");
         mhs1.tampilkanInfo();
+
+        // Instansiasi objek Mahasiswa menggunakan konstruktor berparameter
+        Mahasiswa mhs2 = new Mahasiswa("Annisa Nabila", "2141720160", 3.25, "TI 21");
+
+        // Mengupdate IPK mhs2
+        mhs2.updateIpk(3.30);
+
+        // Menampilkan informasi mhs2
+        System.out.println("\nInformasi Mahasiswa 2:");
+        mhs2.tampilkanInfo();
+
+        // Membuat objek baru dengan nama mhsMaksum menggunakan konstruktor berparameter
+        Mahasiswa mhsMaksum = new Mahasiswa("Maksum", "24410706009", 3.5, "A");
+
+        // Menampilkan informasi mahasiswa
+        mhsMaksum.tampilkanInfo();
     }
 }
