@@ -21,12 +21,12 @@ public class JadwalKuliah {
             System.out.println("\nMasukkan data mata kuliah ke-" + (i + 1));
             System.out.print("Nama Mata Kuliah: ");
             namaMataKuliah[i] = sc.nextLine();
-            System.out.print("SKS: ");
+            System.out.print("SKS          : ");
             sks[i] = sc.nextInt();
-            System.out.print("Semester: ");
+            System.out.print("Semester     : ");
             semester[i] = sc.nextInt();
             sc.nextLine(); // Membersihkan newline
-            System.out.print("Hari Kuliah: ");
+            System.out.print("Hari Kuliah  : ");
             hariKuliah[i] = sc.nextLine();
         }
 
