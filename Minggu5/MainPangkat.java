@@ -1,6 +1,7 @@
 package Minggu5;
 
 import java.util.Scanner;
+
 class Pangkat {
     int nilai, pmgkst;
 
