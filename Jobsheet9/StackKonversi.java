@@ -6,7 +6,7 @@ public class StackKonversi {
     int top;
 
     public StackKonversi() {
-        this.size = 32; // Asumsi 32 bit
+        this.size = 32; // asumsi 32 bit
         tumpukanBiner = new int[size];
         top = -1;
     }
@@ -21,7 +21,7 @@ public class StackKonversi {
 
     public void push(int data) {
         if (isFull()) {
-            System.out.println("x: Stack penuh");
+            System.out.println("Stack penuh");
         } else {
             top++;
             tumpukanBiner[top] = data;
@@ -30,7 +30,7 @@ public class StackKonversi {
 
     public int pop() {
         if (isEmpty()) {
-            System.out.println("x: Stack kosong.");
+            System.out.println("Stack kosong.");
             return -1;
         } else {
             int data = tumpukanBiner[top];

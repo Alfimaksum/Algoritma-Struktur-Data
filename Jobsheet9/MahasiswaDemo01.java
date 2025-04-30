@@ -40,6 +40,10 @@ public class MahasiswaDemo01 {
                         int nilai = sc.nextInt();
                         dinilai.tugasDinilai(nilai);
                         System.out.printf("Nilai Tugas %s adalah %d\n", dinilai.nama, nilai);
+                
+                        // Konversi nilai ke biner
+                        String biner = stack.konversiDesimalKeBiner(nilai);
+                        System.out.println("Nilai Biner Tugas: " + biner);
                     }
                     break;
 
@@ -62,6 +66,7 @@ public class MahasiswaDemo01 {
                         System.out.println("Tugas pertama dikumpulkan oleh " + bawah.nama);
                     }
                     break;
+
                 case 6:
                     System.out.println("Jumlah tugas yang sudah dikumpulkan: " + stack.jumlahTugas());
                     break;
